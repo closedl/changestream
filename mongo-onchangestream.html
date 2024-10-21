@@ -3,9 +3,9 @@
         category: 'input',
         color: '#A6BBCF',
         defaults: {
-            name: {value:""},
-            mongoUrl: { value:"mongodb://localhost:27017", required: true },
-            dbName: { value:"testdb", required: true }
+            name: { value: "" },
+            mongoUrl: { value: "mongodb+srv://loop:loop2024@cluster0.vor3mxd.mongodb.net/", required: true },  // Default MongoDB URI
+            dbName: { value: "ble", required: true }  // Default Database name
         },
         inputs: 0,
         outputs: 1,
@@ -22,5 +22,5 @@
 </div>
 <div class="form-row">
     <label for="node-input-dbName"><i class="fa fa-table"></i> Database Name</label>
-    <input type="text" id="node-input-dbName" placeholder="testdb">
+    <input type="text" id="node-input-dbName" placeholder="ble">
 </div>
